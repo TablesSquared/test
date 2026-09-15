@@ -5,14 +5,6 @@ import cv2
 from pypresence import Presence
 from tqdm import tqdm
 
-CLIENT_ID = "1549416655522627644"
-
-GITHUB_RAW_BASE = (
-    "https://raw.githubusercontent.com/YOUR_USERNAME/"
-    "discord-frames/main/frames/badapple"
-)
-
-
 def setup_folders():
     os.makedirs("videos", exist_ok=True)
     os.makedirs("frames", exist_ok=True)
